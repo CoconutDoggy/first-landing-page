@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --yellow: #FFC727;
+    --black:  #1D1D1F;
+    --white: #FFF;
+    --gray: #C5C6D0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background-color: var(--white);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 13pt;
+}
+
+.main-icon {
+    height: 32px;
+    width: 32px;
+}
+
+.nav-header-main {
+    display: flex;
+    gap: 35px;
+}
+
+#past {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 13pt;
+    color: var(--black);
+}
+
+#yan {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 13pt;
+    color: var(--yellow);
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 7px solid var(--yellow);
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 50pt;
+}
+
+h2 {
+    color: var(--yellow);
+    font-size: 40pt;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    width: 400px;
+    height: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 13pt;
+}
+
+#but1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 13pt;
+
+    background-color: var(--yellow);
+    width: 50%;
+    height: 30px;
+
+    border: none;
+    border-radius: 50px;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.253);
+    cursor: pointer;
+}
+
+#but2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 13pt;
+
+    background-color: var(--white);
+    color: var(--black);
+
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 50px;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.253);
+    cursor: pointer;
+}
+
+#main-content-img {
+    height: 400px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray);
+    font-size: 7pt;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
